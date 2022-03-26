@@ -1,0 +1,33 @@
+yas=input("75 yaşından büyük bir sigara bağımlısı mısınız ? Evet ya da Hayır?")
+if yas==("Evet") or yas==("evet") or yas==("EVet") :
+  #yas=bool(True)
+  yas=True
+elif yas==("Hayır") or yas==("hayır") or yas==("HAyır"):
+  yas=False
+  
+else :
+  print("Lütfen Evet ya da Hayır gibi cevap giriniz")
+#print(yas)
+kronik=input("Ağır bir kronik hastalığınız var mı? ? Evet ya da Hayır?")
+if kronik==("Evet") or kronik==("evet") or kronik==("EVet") :
+  #yas=bool(True)
+  kronik=True
+elif kronik==("Hayır") or kronik==("hayır") or kronik==("HAyır"):
+  kronik=False
+else :
+  print("Lütfen Evet ya da Hayır gibi cevap giriniz")
+#print(kronik)
+bağışıklık=input("Bağışıklık sisteminiz çok mu zayıf? Evet ya da Hayır?")
+if bağışıklık==("Evet") or bağışıklık==("evet") or bağışıklık==("EVet") :
+  #yas=bool(True)
+  bağışıklık=True
+elif bağışıklık==("Hayır") or bağışıklık==("hayır") or bağışıklık==("HAyır"):
+  bağışıklık=False
+else :
+  print("Lütfen Evet ya da Hayır gibi cevap giriniz")
+
+#print(bağışıklık)
+if yas==True or kronik==True or bağışıklık==True :
+  print ("Ölüm riskiniz var. Dikkat edin")
+else :
+  print("Ölüm riskiniz yok")
