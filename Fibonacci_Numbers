@@ -1,0 +1,7 @@
+liste=[1,1]
+
+for i in range (1,9):
+  x=liste[i-1]+liste[i]
+  liste.append(x)
+
+print(liste)  

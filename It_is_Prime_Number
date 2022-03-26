@@ -1,0 +1,30 @@
+while True:
+       number=input("Please enter a number")
+      #  number='17'
+       if not number.isdigit():
+         print(number, "is invalid entry. Please enter valid input.")
+       elif number.isdigit():
+          if int(number)==1:
+            print("Your number {} is Prime Number".format(number))
+          elif int(number)==0 :
+            print("{} is not Prime number".format(number))
+          elif int(number)%2 ==0 and int(number)==2 :
+            print("{} is a Prime Number".format(number))
+          elif  int(number)==3 or int(number)==5 or int(number)==7 or int(number)==1 :
+            print("{} is a Prime Number".format(number))
+          elif int(number)%5==0:
+            print("{} is not  Prime Number".format(number))
+          elif int(number)%2==0:
+            print("{} is not  Prime Number".format(number))
+          elif int(number)%3==0:
+            print("{} is not  Prime Number".format(number))
+          elif int(number)%7==0:
+            print("{} is not  Prime Number".format(number))
+          elif int(number)%9==0:
+            print("{} is not  Prime Number".format(number))
+          elif int(number)%1==int(number):
+            print("{} is a Prime number".format(number))
+          else:
+            print("{} is Prime Number".format(number))  
+          break   
+

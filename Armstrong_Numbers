@@ -1,0 +1,26 @@
+number=input("Enter a number")
+#number="153"
+a=list(number)
+i=0
+toplam=0
+değer=0
+list_num=["0","1","2","3","4","5","6","7","8","9"]
+list_complex=[".",","]
+
+if a[0]=="-" or a[0] not in list_num :
+   print("It is an invalid entry. Don't use non-numeric, float, or negative values!")
+elif "." in number or "," in number :
+    print("Don't use float ")
+else:
+   while i < len(a):
+    toplam=int(a[i])**len(a)
+    değer +=toplam
+    i+=1
+if değer==0:
+    False
+elif değer==int(number):
+ print("Congratulations!!! {} is an Armstrong number".format (değer))
+else:
+  print("Sorry!!!! {} is not an Armstrong number".format(number))
+
+

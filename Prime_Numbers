@@ -1,0 +1,9 @@
+number=int(input("Enter a number"))
+liste=[]
+for i in range(2,number):
+    for j in range(2,i):
+            if i%j ==0:
+              break
+    else:
+              liste.append(i)
+print(liste)    
