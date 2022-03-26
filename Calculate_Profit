@@ -1,0 +1,13 @@
+total=1000
+day=0
+
+while day<7:
+
+   toplamfaiz= total * 7/100
+   total=toplamfaiz + total
+   day= day + 1
+
+while day ==7:
+
+    print(total)
+    break
