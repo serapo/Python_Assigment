@@ -1,0 +1,7 @@
+left = set("qwertasdfgzxcvb")
+
+right = set("yuiophjklnmöçşğü")
+
+word = set(input("Please enter word: "))
+
+print(bool(word.intersection(left)) and bool(word.intersection(right)))
