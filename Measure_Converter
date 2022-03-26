@@ -1,0 +1,9 @@
+derece=float(input("Please enter celsius degree"))
+fahrenhayt=(derece*1.800)+32
+print(float(fahrenhayt))
+
+
+
+kilometre=float(input("Please enter kilometre")
+mile=kilometre*0.62137119
+print("Miles",mile)
